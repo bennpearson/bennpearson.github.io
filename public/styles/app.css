@@ -60,8 +60,15 @@ article {
   text-align: center;
   display: flex;
   align-items: center;
-  height: 77vh;
   margin: auto;
+  height: 50vh;
+}
+
+
+@media (min-width: 600px) {
+  .intro {
+    height: 75vh;
+  }
 }
 
 .intro-wrapper {
@@ -223,7 +230,7 @@ footer {
       overflow-y: hidden;
       -webkit-overflow-scrolling: touch; }
     footer section.rwd ul {
-      width: 2790px; }
+      width: 3100px; }
     footer section.apps ul {
       width: 1330px; }
     footer section.lab ul {
